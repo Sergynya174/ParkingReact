@@ -20,4 +20,4 @@
 ![alt text](https://github.com/Sergynya174/parkingReact/blob/main/img1.png?raw=true)
 ![alt text](https://github.com/Sergynya174/parkingReact/blob/main/img2.png?raw=true)
 
-[Ссылка](https://sergynya174.github.io/books-react/)
+[Ссылка](https://6473407ec2068c2ce981ec3f--genuine-sundae-d5fa9f.netlify.app/)
