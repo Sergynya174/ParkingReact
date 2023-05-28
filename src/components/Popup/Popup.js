@@ -21,7 +21,7 @@ function Popup() {
 
   useEffect(() => {
     dispatch(getCameras());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="popup">

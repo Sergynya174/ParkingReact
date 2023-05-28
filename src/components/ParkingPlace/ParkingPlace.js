@@ -12,7 +12,7 @@ export const ParkingPlace = () => {
 
   useEffect(() => {
     getCamera(id);
-  }, []);
+  }, [id]);
 
   return <Main data={data} />;
 };
