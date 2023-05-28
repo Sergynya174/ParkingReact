@@ -17,7 +17,7 @@
 
 **Примерный вид приложения:**
 
-![image](https://user-images.githubusercontent.com/61146708/125444523-829f6238-eb1c-42ff-a9c9-a3eb73ba24c4.png)
-![image](https://user-images.githubusercontent.com/61146708/125444403-e868dec7-2977-4825-b751-5b2e5abc279a.png)
+![alt text](https://github.com/Sergynya174/parkingReact/blob/main/img1.png?raw=true)
+![alt text](https://github.com/Sergynya174/parkingReact/blob/main/img2.png?raw=true)
 
 [Ссылка](https://sergynya174.github.io/books-react/)
