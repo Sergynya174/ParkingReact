@@ -29,19 +29,20 @@ function MapComponent({ data }) {
         <GeolocationControl options={{ float: "left" }} />
         {window.location.pathname === `/camera/${data?.id}`
           ? data &&
-            data?.zones.map(
-              (el) =>
-                el && (
-                  <Placemark
-                    key={el.internal_id}
-                    geometry={[el.lat, el.long]}
-                    options={{
-                      iconLayout: "default#image",
-                      iconImageHref: iconMapDis,
-                      iconImageSize: [31, 40],
-                    }}
-                  />
-                )
+            data?.zones.map((el) =>
+              el.status === 0 ? (
+                <Placemark
+                  key={el.internal_id}
+                  geometry={[el.lat, el.long]}
+                  options={{
+                    iconLayout: "default#image",
+                    iconImageHref: iconMapDis,
+                    iconImageSize: [31, 40],
+                  }}
+                />
+              ) : (
+                ""
+              )
             )
           : ""}
         {window.location.pathname === `/camera/${data?.id}` ? (
