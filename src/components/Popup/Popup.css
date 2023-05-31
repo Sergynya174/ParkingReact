@@ -48,9 +48,9 @@
 }
 
 .popup__list-item {
-  height: 52px;
+  min-height: 52px;
   box-sizing: border-box;
-  padding: 16px 32px;
+  padding: 16px 32px 0;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
